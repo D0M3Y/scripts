@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Script created by Dominik Bauer (@d0m3y)
+# Script created by @d0m3y
 
 read -p "Bitte CN angeben: " CN
 read -p "Bitte FQDN angeben: " FQDN
@@ -41,4 +41,4 @@ echo 'Erstelle fullchain.pem...'
 cat $FQDN/cert.pem > $FQDN/fullchain.pem
 cat ca/ca.pem >> $FQDN/fullchain.pem
 
-echo "Made by Dominik Bauer (@d0m3y)"
+echo "Made by @d0m3y"
