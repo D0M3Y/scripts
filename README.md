@@ -1,4 +1,4 @@
-#Scripts
+# Scripts
 
 This is just a small collection with multiple scripts that I wrote.
 
